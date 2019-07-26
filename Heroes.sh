@@ -397,7 +397,7 @@ bash blackeye.sh
 22) pkg update
 pkg install python 
 pkg install git
-https://github.com/Gameye98/santet-online.git
+git clone https://github.com/Gameye98/santet-online.git
 cd santet-online
 python2 santet. py
 
