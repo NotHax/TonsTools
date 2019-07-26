@@ -49,14 +49,14 @@ echo ''''
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
-echo -e $cyan"[#]> Thanks So Much"
+
+echo -e $cyan"Thanks So Much"
 sleep 1
 echo ""
-echo -e $b"[#]> For,,"
+echo -e $b"For,,"
 sleep 1
 echo ""
-echo -e $r"[#]> Use This Tools"
+echo -e $r"Use This Tools"
 sleep 2
 exit
 }
@@ -95,21 +95,20 @@ echo " $kuni [ 23 ] $r $g Report FB"
 echo " $kuni [ 24 ] $r $g Trap Project"
 echo " $kuni [ 25 ] $r $g Agony Project"
 echo " $kuni [ 26 ] $r $g Light Bringer"
-
 echo " $kuni [ 27 ] $r $g All Seeing"
 echo " $kuni [ 28 ] $r $g Nmap Lite"
-echo $red " $kuni [ 29 ] $r $g Choice Bot"
-echo $red " $kuni [ 30 ] $r $g RED_HAWK"
-echo $red " $kuni [ 31 ] $r $g Lazymux"
-echo $red " $kuni [ 32 ] $r $g WebDav"
-echo $red " $kuni [ 33 ] $r $g LiteSpam"
-echo $red " $kuni [ 34 ] $r $g WpsCan"
-echo $red " $kuni [ 35 ] $r $g SqlScan"
-echo $red " $kuni [ 36 ] $r $g SqlMap"
-echo $red " $kuni [ 37 ] $r $g Vbug"
-echo $red " $kuni [ 38 ] $r $g Deface Creator"
-echo $red " $kuni [ 39 ] $r $g XSStrike"
-echo $red " $kuni [ 40 ] $r $g Infoga"
+echo " $kuni [ 29 ] $r $g Choice Bot"
+echo " $kuni [ 30 ] $r $g RED_HAWK"
+echo " $kuni [ 31 ] $r $g Lazymux"
+echo " $kuni [ 32 ] $r $g WebDav"
+echo " $kuni [ 33 ] $r $g LiteSpam"
+echo " $kuni [ 34 ] $r $g WpsCan"
+echo " $kuni [ 35 ] $r $g SqlScan"
+echo " $kuni [ 36 ] $r $g SqlMap"
+echo " $kuni [ 37 ] $r $g Vbug"
+echo " $kuni [ 38 ] $r $g Deface Creator"
+echo " $kuni [ 39 ] $r $g XSStrike"
+echo " $kuni [ 40 ] $r $g Infoga"
 echo " $kuni [ 41 ] $r $g Comment Bot FB"
 echo " $kuni [ 42 ] $r $g Tombol Special Termux"
 echo " $kuni [ 43 ] $r $g DeShal"
