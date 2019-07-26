@@ -21,6 +21,27 @@ tik="\033[1;91m"
 git="\033[1;92m"
 aut="\033[1;96m"
 
+
+
+
+clear
+echo ""
+echo $blue "Loading."
+echo $blue "Loading.."
+echo $blue "Loading..."
+echo $blue "Loading."
+echo $blue "Loading.."
+echo $blue "Loading..."
+echo $blue "Loading."
+echo $blue "Loading."
+echo $blue "Loading.."
+echo $blue "Loading..."
+echo $blue "Loading."
+echo $blue "Loading.."
+echo $blue "Loading..."
+echo ""
+
+clear
 echo ""
 echo $red"┏━┳┳┳━┳┳┓"
 echo "┃━┫┃┃┏┫━┫┏┓"
@@ -41,29 +62,6 @@ echo $blue"================================="
 echo ""
 sleep 0.9
 echo ""
-sleep 0.8
-echo ''''
-echo ""
-sleep 0.9
-echo ""
-sleep 0.8
-echo ''''
-
-clear
-echo $blue "Loading."
-echo $red  "Loading.."
-echo $g    "Loading..."
-echo $blue "Loading."
-echo $red  "Loading.."
-echo $g    "Loading..."
-echo $blue "Loading."
-echo $blue "Loading."
-echo $red  "Loading.."
-echo $g    "Loading..."
-echo $blue "Loading."
-echo $red  "Loading.."
-echo $g    "Loading..."
-clear
 ###################################################
 # CTRL + C
 ###################################################
