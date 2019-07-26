@@ -71,7 +71,8 @@ echo ""
 sleep 0.5
 echo " $kuni [ 01 ] $r $g Nmap" $w
 echo " $kuni [ 02 ] $r $g Hack Fb Mbf"
-echo "  $kuni [ 03 ] $r $g Camera Hack"
+echo " 
+$kuni [ 03 ] $r $g Camera Hack"
 echo " $kuni [ 04 ] $r $g Tools OSIF"
 echo " $kuni [ 05 ] $r $g Dark Fb"
 echo " $kuni [ 06 ] $r $g Bot Instagram"
@@ -117,7 +118,7 @@ echo " $kuni [ 45 ] $r $g Game Termux"
 echo " $kuni [ 46 ] $r $g DarkFB Premium"
 echo " $kuni [ 47 ] $r $g IGBrute"
 echo
-echo $red " $kuni [ 00 ] $r   Exit" $w
+echo " $kuni [ 00 ] $r   Exit" $w
 echo 
 echo ""
 echo  "╭─Choose" |lolcat
@@ -637,9 +638,11 @@ sh encript-python.sh
 
 #GameTermux
 45)pkg install git
+pkg install python
+pkg install python2
 git clone https://github.com/Rusmana-ID/game-termux
 cd game-termux
-python3 game.py
+python3 game-termux.py
 
 ;;
 
