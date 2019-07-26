@@ -115,6 +115,7 @@ echo $red " $kuni [ 43 ] $r $g DeShal"
 echo $red " $kuni [ 44 ] $r $g Encrypt Python Shall"
 echo $red " $kuni [ 45 ] $r $g Game Termux"
 echo $red " $kuni [ 46 ] $r $g DarkFB Premium"
+echo $red " $khnj [ 47 ] $r $g IGBrute"
 echo
 echo $red " $kuni [ 00 ] $r   Exit" $w
 echo 
@@ -649,6 +650,16 @@ pip2 install --upgrade pip
 git clone https://github.com/HackerGamers71/DarkFB-Premium
 cd DarkFB-Premium
 python2 DarkFB.py
+
+;;
+
+#IGBrute
+47)pkg install git
+pkg install python
+pkg install pyhon2
+git clone https://github.com/kancotdiq/igbrute
+cd igbrute
+python2 brute.py
 
 ;;
 
