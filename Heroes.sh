@@ -43,6 +43,27 @@ sleep 0.9
 echo ""
 sleep 0.8
 echo ''''
+echo ""
+sleep 0.9
+echo ""
+sleep 0.8
+echo ''''
+
+clear
+echo $blue "Loading."
+echo $red  "Loading.."
+echo $g    "Loading..."
+echo $blue "Loading."
+echo $red  "Loading.."
+echo $g    "Loading..."
+echo $blue "Loading."
+echo $blue "Loading."
+echo $red  "Loading.."
+echo $g    "Loading..."
+echo $blue "Loading."
+echo $red  "Loading.."
+echo $g    "Loading..."
+clear
 ###################################################
 # CTRL + C
 ###################################################
