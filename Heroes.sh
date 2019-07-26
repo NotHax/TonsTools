@@ -113,7 +113,7 @@ echo $red " $kuni [ 41 ] $r $g Comment Bot FB"
 echo $red " $kuni [ 42 ] $r $g Tombol Special Termux"
 echo $red " $kuni [ 43 ] $r $g DeShal"
 echo $red " $kuni [ 44 ] $r $g Encrypt Python Shall"
-echo $rer " $kuni [ 45 ] $r $g Game Termux"
+echo $red " $kuni [ 45 ] $r $g Game Termux"
 echo
 echo $red " $kuni [ 00 ] $r   Exit" $w
 echo 
