@@ -114,6 +114,7 @@ echo $red " $kuni [ 42 ] $r $g Tombol Special Termux"
 echo $red " $kuni [ 43 ] $r $g DeShal"
 echo $red " $kuni [ 44 ] $r $g Encrypt Python Shall"
 echo $red " $kuni [ 45 ] $r $g Game Termux"
+echo $red " $kuni [ 46 ] $r $g DarkFB Premium"
 echo
 echo $red " $kuni [ 00 ] $r   Exit" $w
 echo 
@@ -641,12 +642,21 @@ python3 game.py
 
 ;;
 
+#DarkFBPremium
+46)pkg install git
+pkg install python2
+pip2 install --upgrade pip
+cd DarkFB-Premium
+python2 DarkFB.py
+
+;;
+
 00)echo $red "Exit"
 exit 
 
 ;;
 
-*) echo "Please Upython2 requests.shse The Right Number"
+*) echo "Please Use The Right Number"
 esac
 done
 done
