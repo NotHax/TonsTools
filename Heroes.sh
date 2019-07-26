@@ -71,8 +71,7 @@ echo ""
 sleep 0.5
 echo " $kuni [ 01 ] $r $g Nmap" $w
 echo " $kuni [ 02 ] $r $g Hack Fb Mbf"
-echo " 
-$kuni [ 03 ] $r $g Camera Hack"
+echo " $kuni [ 03 ] $r $g Camera Hack"
 echo " $kuni [ 04 ] $r $g Tools OSIF"
 echo " $kuni [ 05 ] $r $g Dark Fb"
 echo " $kuni [ 06 ] $r $g Bot Instagram"
