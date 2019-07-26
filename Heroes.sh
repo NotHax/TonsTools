@@ -646,6 +646,7 @@ python3 game.py
 46)pkg install git
 pkg install python2
 pip2 install --upgrade pip
+git clone https://github.com/HackerGamers71/DarkFB-Premium
 cd DarkFB-Premium
 python2 DarkFB.py
 
