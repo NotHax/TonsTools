@@ -116,7 +116,7 @@ echo $g "══════════════"
 echo $cyan $b "Choose Hack :"
 echo $g "══════════════"
 echo ""
-sleep 0.5
+sleep 1
 echo " $kuni [ 01 ] $r $g Nmap" $w
 echo " $kuni [ 02 ] $r $g Hack Fb Mbf"
 echo " $kuni [ 03 ] $r $g Camera Hack"
