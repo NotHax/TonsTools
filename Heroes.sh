@@ -25,12 +25,14 @@ aut="\033[1;96m"
 
 figlet Please | lolcat
 figlet Wait | lolcat
-echo ""
+
+
+
 sleep 1
 
 
 
-echo ""
+
 
 echo ""
 clear
@@ -68,8 +70,11 @@ sleep 1
 echo "█"
 sleep 1
 
+
+
 clear
 echo "██"
+
 sleep 1
 clear
 echo "███"
@@ -86,10 +91,11 @@ sleep 1
 clear
 echo "███████"
 sleep 1
+clear
 echo "████████"
 sleep 1
 clear
-echo "██████████
+echo "██████████"
 sleep 1
 clear
 echo "███████████"
