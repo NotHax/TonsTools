@@ -27,10 +27,27 @@ figlet Please | lolcat
 figlet Wait | lolcat
 echo ""
 sleep 1
-sleep 2
-sleep 3
-sleep 4
+
+
+
 echo ""
+
+clear
+echo ""
+echo $blue "Loading."
+
+sleep 1
+
+clear
+echo $blue "Loading.."
+
+sleep 1
+
+
+clear
+echo $blue "Loading..."
+
+sleep 1
 
 clear
 echo ""
@@ -46,27 +63,11 @@ sleep 1
 
 clear
 echo $blue "Loading..."
-
-sleep 1
-
-echo ""
-echo $blue "Loading."
-
-sleep 1
-
-clear
-echo $blue "Loading.."
-
-sleep 1
-
-
-clear
-echo $blue "Loading..."
 sleep 1
 sleep 2
-sleep 3
-sleep 4
-sleep
+
+
+
 echo ""
 
 clear
