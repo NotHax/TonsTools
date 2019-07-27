@@ -23,86 +23,26 @@ aut="\033[1;96m"
 
 
 
+figlet Please | lolcat
+figlet Wait | lolcat
 
 clear
 echo ""
 echo $blue "Loading."
-echo ""
+
 sleep 1
-echo ""
-clear
-echo $blue "Loading.."
-echo ""
-sleep 1
-echo ""
 
 clear
-echo $blue "Loading..."
-echo ""
-sleep 1
-echo ""
-
-clear
-echo $blue "Loading."
-echo ""
-sleep 1
-echo ""
-clear
 echo $blue "Loading.."
-echo ""
+
 sleep 1
-echo ""
 
 
 clear
 echo $blue "Loading..."
-echo ""
-sleep 1
-echo ""
 
-clear
-echo $blue "Loading."
-echo ""
 sleep 1
 echo ""
-
-clear
-echo $blue "Loading."
-echo ""
-sleep 1
-echo ""
-clear
-echo $blue "Loading.."
-echo ""
-sleep 1
-echo "$
-clear
-echo $blue "Loading..."
-echo ""
-sleep 1
-echo ""
-clear
-echo $blue "Loading."
-echo ""
-sleep 1
-echo ""
-clear
-echo $blue "Loading.."
-echo ""
-sleep 1
-echo ""
-clear
-
-echo $blue "Loading..."
-echo ""
-sleep 1
-echo ""
-clear
-echo ""
-echo ""
-sleep 1
-echo ""
-
 
 clear
 echo ""
