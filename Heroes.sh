@@ -64,9 +64,9 @@ sleep 1
 clear
 echo $blue "Loading..."
 sleep 1
-sleep 2
 
-
+clear
+echo $g "Done!"
 
 echo ""
 
