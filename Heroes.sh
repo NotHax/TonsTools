@@ -40,6 +40,10 @@ echo $blue "Loading."
 echo $blue "Loading.."
 echo $blue "Loading..."
 echo ""
+echo ""
+sleep 1
+echo ""
+
 
 clear
 echo ""
