@@ -195,7 +195,7 @@ echo " $kuni [ 33 ] $r $g LiteSpam"
 echo " $kuni [ 34 ] $r $g WpsCan"
 echo " $kuni [ 35 ] $r $g SqlScan"
 echo " $kuni [ 36 ] $r $g SqlMap"
-echo " $kuni [ 37 ] $r $g Vbug"
+echo " $kuni [ 37 ] $r $g IPGeolocation"
 echo " $kuni [ 38 ] $r $g Deface Creator"
 echo " $kuni [ 39 ] $r $g XSStrike$red [Error]"
 echo " $kuni [ 40 ] $r $g Infoga"
@@ -639,13 +639,12 @@ python2 sqlmap.py
 
 ;;
 
-#Vbug
-37) apt update && apt upgrade -y
-apt install wget                                                      
-apt install python2                                                   
-wget -O vbug.zip https://doc-0s-0o-docs.googleusercontent.com/docs/se>unzip vbug.zip                                                        
-cd vbug
-python2 vbug.py
+#IPGeolocation
+37) git clone https://github.com/maldevel/IPGeolocation
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+python ipgeolocation.py -m
 
 ;;
 
@@ -752,6 +751,9 @@ cd igbrute
 python2 brute.py
 
 ;;
+
+#
+48) 
 
 00)echo $red "Exit"
 exit 
