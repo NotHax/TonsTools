@@ -620,10 +620,12 @@ python2 create.py
 ;;
 
 #XSStrike
-39) figlet $r This
-figlet $r Tools
-figlet $r Error
-exit
+39) echo ""
+echo $g "This"
+echo $g "Tools"
+echo $r "Error"
+sleep 0.9
+exit 
 
 ;;
 
