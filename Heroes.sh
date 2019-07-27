@@ -66,57 +66,50 @@ sleep 1
 clear
 echo $blue "Loading..."
 sleep 1
-
-echo "█"
-sleep 1
-
-
-
 clear
-echo "██"
+echo "[█             ]"
+sleep 1
+clear
+echo "[██            ]"
 
 sleep 1
 clear
-echo "███"
+echo "[███           ]"
 sleep 1
 clear
-echo "████"
+echo "[████          ]"
 sleep 1
 clear
-echo "█████"
+echo "[█████         ]"
 sleep 1
 clear
-echo "██████"
+echo "[██████        ]"
 sleep 1
 clear
-echo "███████"
+echo "[███████       ]"
 sleep 1
 clear
-echo "████████"
+echo "[████████      ]"
 sleep 1
 clear
-echo "██████████"
+echo "[██████████    ]"
 sleep 1
 clear
-echo "███████████"
+echo "[███████████   ]"
 sleep 1
 clear
-echo "████████████"
+echo "[████████████  ]"
 sleep 1
 clear
-echo "█████████████"
+echo "[█████████████ ]"
 sleep 1
 clear
-echo "██████████████"
+echo "[██████████████]"
 sleep 1
 clear
 
-
-
-
-clear
 echo $g "Done!"
-sleep 0.5
+sleep 0.9
 echo ""
 
 clear
