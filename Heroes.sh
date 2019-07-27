@@ -25,7 +25,12 @@ aut="\033[1;96m"
 
 figlet Please | lolcat
 figlet Wait | lolcat
-
+echo ""
+sleep 1
+sleep 2
+sleep 3
+sleep 4
+echo ""
 
 echo ""
 echo $blue "Loading."
@@ -41,11 +46,24 @@ sleep 1
 clear
 echo $blue "Loading..."
 
+echo ""
+echo $blue "Loading."
+
+sleep 1
+
+clear
+echo $blue "Loading.."
+
+sleep 1
+
+
+clear
+echo $blue "Loading..."
 sleep 1
 sleep 2
 sleep 3
 sleep 4
-sleep 5
+sleep
 echo ""
 
 clear
