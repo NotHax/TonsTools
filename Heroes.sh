@@ -32,8 +32,8 @@ sleep 1
 
 echo ""
 
-clear
 echo ""
+clear
 echo $blue "Loading."
 
 sleep 1
