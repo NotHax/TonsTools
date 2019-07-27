@@ -27,31 +27,76 @@ aut="\033[1;96m"
 clear
 echo ""
 echo $blue "Loading."
+echo ""
+sleep 1
+echo ""
 clear
 echo $blue "Loading.."
+echo ""
+sleep 1
+echo ""
+
 clear
 echo $blue "Loading..."
+echo ""
+sleep 1
+echo ""
+
 clear
 echo $blue "Loading."
+echo ""
+sleep 1
+echo ""
 clear
 echo $blue "Loading.."
+echo ""
+sleep 1
+echo ""
+
+
 clear
 echo $blue "Loading..."
+echo ""
+sleep 1
+echo ""
+
 clear
 echo $blue "Loading."
+echo ""
+sleep 1
+echo ""
+
 clear
 echo $blue "Loading."
+echo ""
+sleep 1
+echo ""
 clear
 echo $blue "Loading.."
+echo ""
+sleep 1
+echo "$
 clear
 echo $blue "Loading..."
+echo ""
+sleep 1
+echo ""
 clear
 echo $blue "Loading."
+echo ""
+sleep 1
+echo ""
 clear
 echo $blue "Loading.."
+echo ""
+sleep 1
+echo ""
 clear
 
 echo $blue "Loading..."
+echo ""
+sleep 1
+echo ""
 clear
 echo ""
 echo ""
