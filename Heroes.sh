@@ -32,6 +32,7 @@ sleep 3
 sleep 4
 echo ""
 
+clear
 echo ""
 echo $blue "Loading."
 
@@ -45,6 +46,8 @@ sleep 1
 
 clear
 echo $blue "Loading..."
+
+sleep 1
 
 echo ""
 echo $blue "Loading."
