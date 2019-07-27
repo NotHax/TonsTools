@@ -207,6 +207,7 @@ echo " $kuni [ 45 ] $r $g Game Termux"
 echo " $kuni [ 46 ] $r $g DarkFB Premium"
 echo " $kuni [ 47 ] $r $g IGBrute"
 echo " $kuni [ 48 ] $r $g Caping"
+echo " $kuni [ 49 ] $r $g OhMyZsh$r [NEW]"
 echo
 echo " $kuni [ 00 ] $red  Exit" $w
 echo 
@@ -761,6 +762,17 @@ git clone https://github.com/anggaid14/caping
 cd caping
 ls
 php run.php
+
+;;
+
+#OhMyZsh
+49)pkg install git
+git clone https://github.com/Cabbagec/termux-ohmyzsh
+cd termux-ohmyzsh
+chmod +x *
+sh install.sh
+
+;;
 
 00)echo $red "Exit"
 exit 
