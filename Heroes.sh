@@ -83,8 +83,8 @@ echo "┗━┻━┻━┻❢"
 echo $blue"================================="
 echo $red" Welcome  "
 echo $blue"================================="
-echo $kuni "Author : NotGuardian"
-echo $red "Instagram : @notguardianyt"
+echo $kuni "Author : &gNotGuardian"
+echo $kuni "Instagram :$g @notguardianyt"
 echo $kuni "GitHub : $g https://github.com/NotHax"
 echo $blue"================================="
 
@@ -155,7 +155,7 @@ echo " $kuni [ 35 ] $r $g SqlScan"
 echo " $kuni [ 36 ] $r $g SqlMap"
 echo " $kuni [ 37 ] $r $g Vbug"
 echo " $kuni [ 38 ] $r $g Deface Creator"
-echo " $kuni [ 39 ] $r $g XSStrike$red[Error]"
+echo " $kuni [ 39 ] $r $g XSStrike$red [Error]"
 echo " $kuni [ 40 ] $r $g Infoga"
 echo " $kuni [ 41 ] $r $g Comment Bot FB"
 echo " $kuni [ 42 ] $r $g Tombol Special Termux"
@@ -165,7 +165,7 @@ echo " $kuni [ 45 ] $r $g Game Termux"
 echo " $kuni [ 46 ] $r $g DarkFB Premium"
 echo " $kuni [ 47 ] $r $g IGBrute"
 echo
-echo " $kuni [ 00 ] $r   Exit" $w
+echo " $kuni [ 00 ] $red  Exit" $w
 echo 
 echo ""
 echo  "╭─Choose" |lolcat
@@ -620,14 +620,10 @@ python2 create.py
 ;;
 
 #XSStrike
-39) apt update
-apt upgrade
-apt install python2
-apt install git
-git clone https://github.com/UltimateHackers/XSStrike
-cd XSStrike                                                           
-pip2 install -r requirements.txt
-python2 xsstrike
+39) figlet $r This
+figlet $r Tools
+figlet $r Error
+exit
 
 ;;
 
