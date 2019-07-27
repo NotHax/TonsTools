@@ -206,6 +206,7 @@ echo " $kuni [ 44 ] $r $g Encrypt Python Shall"
 echo " $kuni [ 45 ] $r $g Game Termux"
 echo " $kuni [ 46 ] $r $g DarkFB Premium"
 echo " $kuni [ 47 ] $r $g IGBrute"
+echo " $kuni [ 48 ] $r $g Caping"
 echo
 echo " $kuni [ 00 ] $red  Exit" $w
 echo 
@@ -682,7 +683,7 @@ python2 infoga.py
 
 ;;
 
-#CmmentBotFB
+#CommentBotFB
 41)apt upgrade && apt update -y
 apt install git unzip python2
 pip2 install --upgrade pip
@@ -753,7 +754,13 @@ python2 brute.py
 ;;
 
 #
-48) 
+48)apt update && apt upgrade
+apt install git
+apt install php
+git clone https://github.com/anggaid14/caping
+cd caping
+ls
+php run.php
 
 00)echo $red "Exit"
 exit 
