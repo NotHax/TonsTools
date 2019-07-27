@@ -50,7 +50,7 @@ echo $blue "Loading..."
 sleep 1
 
 clear
-echo ""
+
 echo $blue "Loading."
 
 sleep 1
