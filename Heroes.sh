@@ -67,7 +67,7 @@ sleep 1
 
 clear
 echo $g "Done!"
-
+sleep 0.5
 echo ""
 
 clear
@@ -155,7 +155,7 @@ echo " $kuni [ 35 ] $r $g SqlScan"
 echo " $kuni [ 36 ] $r $g SqlMap"
 echo " $kuni [ 37 ] $r $g Vbug"
 echo " $kuni [ 38 ] $r $g Deface Creator"
-echo " $kuni [ 39 ] $r $g XSStrike"
+echo " $kuni [ 39 ] $r $g XSStrike$red[Error]"
 echo " $kuni [ 40 ] $r $g Infoga"
 echo " $kuni [ 41 ] $r $g Comment Bot FB"
 echo " $kuni [ 42 ] $r $g Tombol Special Termux"
