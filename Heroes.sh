@@ -701,7 +701,7 @@ python2 out.py
 pkg install python
 pkg install python2
 git clone https://github.com/Rusmana-ID/tombol-special-termux
-cd tombol-pecial-termux
+cd tombol-special-termux
 python2 special.py
 
 ;;
