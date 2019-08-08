@@ -777,6 +777,7 @@ exit
 ;;
 
 *) echo "Please Use The Right Number"
+sleep 2
 esac
 done
 done
