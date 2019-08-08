@@ -1,22 +1,22 @@
 #!/bin/bash
 
 clear
-b="\033[1m"
+bk="\033[1m"
 u="\033[4m"
 bl="\033[30m"
 r="\033[31m"
 g="\033[32m"
 bu="\033[34m"
 m="\033[35m"
-c="\033[36m"
+cya="\033[36m"
 w="\033[37m"
 endc="\033[0m"
 enda="\033[0m"
-blue="\033[1;34m"
-cyan="\033[1;36m"
-red="\033[1;31m"
+b="\033[1;34m"
+c="\033[1;36m"
+r="\033[1;31m"
 tes="\033[1;97m"
-kuni="\033[1;93m"
+y"\033[1;93m"
 tik="\033[1;91m"
 git="\033[1;92m"
 aut="\033[1;96m"
@@ -114,23 +114,23 @@ echo ""
 
 clear
 echo ""
-echo $red"┏━┳┳┳━┳┳┓"
-echo "┃━┫┃┃┏┫━┫┏┓"
-echo "┃┏┫┃┃┗┫┃┃┃┃"
-echo "┗┛┗━┻━┻┻┛┃┃"
-echo $blue"┏┳┳━┳┳┳┓┏┫┣┳┓"
-echo "┃┃┃┃┃┃┃┃┣┻┫┃┃"
-echo "┣┓┃┃┃┃┣┫┃┏┻┻┫"
-echo "┗━┻━┻━┻❢"
-echo $blue"================================="
-echo $red" Welcome  "
-echo $blue"================================="
-echo $kuni "Author : &gNotGuardian"
-echo $kuni "Instagram :$g @notguardianyt"
-echo $kuni "GitHub : $g https://github.com/NotHax"
-echo $blue"================================="
+echo $c "**********                    **         **                    **              **  **               "
+echo $y "/////$c**$y///                    /$c**        $y/$c**                  $y/$c**             $y/$c** $y/$c**               "
+echo $y "    /$c**      ******   ******  $y/$c**  ******$y/$c** *******   ****** ******  ******   $y/$c** $y/$c**  *****  ******"
+echo $y "    /$c**     **$y////$c** **$y////$c** $y/$c** **$y//// /$c**$y//$c**$y///$c** **/$y/// ///$c**$y/  //////$c**  $y/$c** $y/$c** **$y///$c**$y//$c**$y//$c*"
+echo $y "    /$c**    $y/$c**   $y/$c**$y/$c**   $y/$c** $y/$c**$y//$c***** $y/$c** $y/$c**  $y/$c**$y//$c*****   $y/$c**    *******  $y/$c** $y/$c**$y/$c******* $y/$c** $y/ "
+echo $y "    /$c**    $y/$c**   $y/$c**$y/$c**   $y/$c** $y/$c** $y/////$c**$y/$c** $y/$c**  $y/$c** $y/////$c**  $y/$c**   **$y////$c**  $y/$c** $y/$c**$y/$c**$y////  /$c**   "
+echo $y "    /$c**    $y//$c****** $y//$c******  *** ****** $y/$c** ***  $y/$c** ******   $y//$c** $y//$c******** *** ***$y//$c******$y/$c***   "
+echo $y "    //      //////   //////  /// //////  // ///   // //////     //   //////// /// ///  ////// ///    "
 
 echo ""
+echo " $c╔════════════════════════════════════════════════════╗"
+echo "  $g【$y Author    $g】$c: $b NotGuardian"
+echo "  $g【$y Github    $g】$c: $g https://github.com/NotHax"
+echo "  $g【$y Instagram $g】$c: $g https://instagram.com/notguardianyt"
+echo "  $g【$y Youtube   $g】$c: $r Not Guardian Hax"
+echo " $c╚════════════════════════════════════════════════════╝"
+
 sleep 0.9
 echo ""
 ###################################################
@@ -140,79 +140,75 @@ trap ctrl_c INT
 ctrl_c() {
 clear
 
-echo -e $cyan"Thanks So Much"
+echo -e $c"Terimakasih Sudah Menggunakan Tools Ini"
 sleep 1
-echo ""
-echo -e $b"For,,"
-sleep 1
-echo ""
-echo -e $r"Use This Tools"
-sleep 2
+
 exit
 }
 lagi=1
 while [ $lagi -lt 6 ];
 do
 echo
-echo $g "══════════════"
-echo $cyan $b "Choose Hack :"
-echo $g "══════════════"
+echo "$c╔═══════════════════╗"
+echo "$y  Tools Installer"
+echo "$c╚═══════════════════╝"
+
 echo ""
 sleep 1
-echo " $kuni [ 01 ] $r $g Nmap" $w
-echo " $kuni [ 02 ] $r $g Hack Fb Mbf"
-echo " $kuni [ 03 ] $r $g Camera Hack"
-echo " $kuni [ 04 ] $r $g Tools OSIF"
-echo " $kuni [ 05 ] $r $g Dark Fb"
-echo " $kuni [ 06 ] $r $g Bot Instagram"
-echo " $kuni [ 07 ] $r $g Pofil Guard Fb"
-echo " $kuni [ 08 ] $r $g Yahoo Cloning"
-echo " $kuni [ 09 ] $r $g Jadwal Sholat"
-echo " $kuni [ 10 ] $r $g Spam Call"
-echo " $kuni [ 11 ] $r $g Spam Email"
-echo " $kuni [ 12 ] $r $g Spam Sms"
-echo " $kuni [ 13 ] $r $g Edit Login Termux"
-echo " $kuni [ 14 ] $r $g Spam WhatsApp"
-echo " $kuni [ 15 ] $r $g CCTV Hack"
-echo " $kuni [ 16 ] $r $g FBH"
-echo " $kuni [ 17 ] $r $g Locator "
-echo " $kuni [ 18 ] $r $g Take Data Target"
-echo " $kuni [ 19 ] $r $g Hammer"
-echo " $kuni [ 20 ] $r $g ShellPhish"
-echo " $kuni [ 21 ] $r $g BlackEye"
-echo " $kuni [ 22 ] $r $g Santet Online"
-echo " $kuni [ 23 ] $r $g Report FB"
-echo " $kuni [ 24 ] $r $g Trap Project"
-echo " $kuni [ 25 ] $r $g Agony Project"
-echo " $kuni [ 26 ] $r $g Light Bringer"
-echo " $kuni [ 27 ] $r $g All Seeing"
-echo " $kuni [ 28 ] $r $g Nmap Lite"
-echo " $kuni [ 29 ] $r $g Choice Bot"
-echo " $kuni [ 30 ] $r $g RED_HAWK"
-echo " $kuni [ 31 ] $r $g Lazymux"
-echo " $kuni [ 32 ] $r $g WebDav"
-echo " $kuni [ 33 ] $r $g LiteSpam"
-echo " $kuni [ 34 ] $r $g WpsCan"
-echo " $kuni [ 35 ] $r $g SqlScan"
-echo " $kuni [ 36 ] $r $g SqlMap"
-echo " $kuni [ 37 ] $r $g IPGeolocation"
-echo " $kuni [ 38 ] $r $g Deface Creator"
-echo " $kuni [ 39 ] $r $g XSStrike$red [Error]"
-echo " $kuni [ 40 ] $r $g Infoga"
-echo " $kuni [ 41 ] $r $g Comment Bot FB"
-echo " $kuni [ 42 ] $r $g Tombol Special Termux"
-echo " $kuni [ 43 ] $r $g DeShal"
-echo " $kuni [ 44 ] $r $g Encrypt Python Shall"
-echo " $kuni [ 45 ] $r $g Game Termux"
-echo " $kuni [ 46 ] $r $g DarkFB Premium"
-echo " $kuni [ 47 ] $r $g IGBrute"
-echo " $kuni [ 48 ] $r $g Caping"
-echo " $kuni [ 49 ] $r $g OhMyZsh$r [NEW]"
+echo " $y [$c01$y] $r $g Nmap" $w
+echo " $y [$c02$y] $r $g Hack Fb Mbf"
+echo " $y [$c03$y] $r $g Camera Hack"
+echo " $y [$c04$y] $r $g Tools OSIF"
+echo " $y [$c05$y] $r $g Dark Fb"
+echo " $y [$c06$y] $r $g Bot Instagram"
+echo " $y [$c07$y] $r $g Pofil Guard Fb"
+echo " $y [$c08$y] $r $g Yahoo Cloning"
+echo " $y [$c09$y] $r $g Jadwal Sholat"
+echo " $y [$c10$y] $r $g Spam Call"
+echo " $y [$c11$y] $r $g Spam Email"
+echo " $y [$c12$y] $r $g Spam Sms"
+echo " $y [$c13$y] $r $g Edit Login Termux"
+echo " $y [$c14$y] $r $g Spam WhatsApp"
+echo " $y [$c15$y] $r $g CCTV Hack"
+echo " $y [$c16$y] $r $g FBH"
+echo " $y [$c17$y] $r $g Locator "
+echo " $y [$c18$y] $r $g User Recon"
+echo " $y [$c19$y] $r $g Hammer"
+echo " $y [$c20$y] $r $g ShellPhish"
+echo " $y [$c21$y] $r $g BlackEye"
+echo " $y [$c22$y] $r $g Santet Online"
+echo " $y [$c23$y] $r $g Report FB"
+echo " $y [$c24$y] $r $g Trap Project"
+echo " $y [$c25$y] $r $g Agony Project"
+echo " $y [$c26$y] $r $g Light Bringer"
+echo " $y [$c27$y] $r $g All Seeing"
+echo " $y [$c28$y] $r $g Nmap Lite"
+echo " $y [$c29$y] $r $g Choice Bot"
+echo " $y [ 30 ] $r $g RED_HAWK"
+echo " $y [ 31 ] $r $g Lazymux"
+echo " $y [ 32 ] $r $g WebDav"
+echo " $y [ 33 ] $r $g LiteSpam"
+echo " $y [ 34 ] $r $g WpsCan"
+echo " $y [ 35 ] $r $g SqlScan"
+echo " $y [ 36 ] $r $g SqlMap"
+echo " $y [ 37 ] $r $g IPGeolocation"
+echo " $y [ 38 ] $r $g Deface Creator"
+echo " $y [ 39 ] $r $g XSStrike$red [Error]"
+echo " $y [ 40 ] $r $g Infoga"
+echo " $y [ 41 ] $r $g Comment Bot FB"
+echo " $y [ 42 ] $r $g Tombol Special Termux"
+echo " $y [ 43 ] $r $g DeShal"
+echo " $y [ 44 ] $r $g Encrypt Python Shall"
+echo " $y [ 45 ] $r $g Game Termux"
+echo " $y [ 46 ] $r $g DarkFB Premium"
+echo " $y [ 47 ] $r $g IGBrute"
+echo " $y [ 48 ] $r $g Caping"
+echo " $y [ 49 ] $r $g OhMyZsh$r [NEW]"
 echo
-echo " $kuni [ 00 ] $red  Exit" $w
+echo " $y [$c00$y] $red  Exit" $w
 echo 
 echo ""
-echo  "╭─Choose" |lolcat
+echo  "╭─Pilih" |lolcat
 read -p "╰─>" pil; 
 
 #Nmap
@@ -222,6 +218,7 @@ echo -e  "${y} {1} Masukkan Web${endc}:"
 read web
 nmap $web
 echo
+sleep 30
 
 ;;
 
@@ -447,7 +444,7 @@ bash locator.sh
 
 ;;
 
-#TakeDataTarget
+#UserRecon
 18) apt update && apt upgrade
 pkg install curl
 pkg install php
